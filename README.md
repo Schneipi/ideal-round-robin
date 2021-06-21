@@ -1,22 +1,22 @@
-# round-robin-schedules
-<b>Given n teams, every round robin schedule has the following properties:</b>
+# Round Robin Schedules
+Given ***n*** teams, every round robin schedule (***n***-teams.txt) has the following properties:
 
-<b>n is even</b>
+## n is even
 
-1) Mirrored double round robin schedule: Same games in round k and round k+n-1, except inverted home advantage.<br/>
-2) Total number of breaks (consecutive home/away games) is a minimum and equals 3n-6 [de Werra 1981].<br/>
-3) First n-1 rounds on their own compose single round robin schedule with a minimum of n-2 breaks [de Werra 1981].<br/>
-4) No breaks in rounds 2 and n-1, entailing that every team has precisely 1 home game in the first 2 rounds and precisely 1 home game in the last 2 rounds.<br/>
-5) No consecutive breaks, entailing no more than 2 home/away games in a row for every team.<br/>
-6) Teams 1 and 2 have 0 breaks, all other teams have 3 breaks.<br/>
-7) The higher the team number, the lower the round number containing the first break for the team.<br/>
+1. Mirrored double round robin schedule: Same games in round ***k*** and round ***k+n-1***, except inverted home advantage.
+1. Total number of breaks (consecutive home/away games) is a minimumand equals ***3n-6*** [de Werra 1981].
+1. First ***n-1*** rounds on their own compose a single round robin schedule with a minimum of ***n-2*** breaks [de Werra 1981].
+1. No breaks in rounds ***2*** and ***n-1***, entailing that every team has precisely ***1*** home game in the first ***2**** rounds and precisely ***1*** home game in the last ***2*** rounds.
+1. No consecutive breaks, entailing no more than ***2*** home/away games in a row for every team.
+1. Teams ***1*** and ***2*** have ***0*** breaks, all other teams have ***3*** breaks.
+1. The higher the team number, the lower the round number containing the first break for the team.
 
-<b>n is odd</b>
+## n is odd
 
-1) Mirrored double round robin schedule: Same games in round k and round k+n, except inverted home advantage.<br/>
-2) Total number of breaks (consecutive home/away games without considering bye rounds) is a minimum and equals n [de Werra 1981].<br/>
-3) First n rounds on their own compose single round robin schedule with a minimum of 0 breaks [de Werra 1981].<br/>
-4) A maximum of n-1 teams have precisely 1 home game in the first 2 rounds and precisely 1 home game in the last 2 rounds.<br/>
-5) No consecutive breaks, entailing no more than 2 home/away games in a row for every team.<br/>
-6) Every team has exactly 1 break.<br/>
-7) The higher the team number, the lower the round number containing the first break for the team.<br/>
+1. Mirrored double round robin schedule: Same games in round ***k*** and round ***k+n***, except inverted home advantage.
+1. Total number of breaks (consecutive home/away games without considering bye rounds) is a minimum and equals ***n*** [de Werra 1981].
+1. First ***n*** rounds on their own compose a single round robin schedule with a minimum of ***0*** breaks [de Werra 1981].
+1. An optimum amount of ***n-1*** teams have precisely ***1*** home game in the first ***2*** rounds and precisely ***1*** home game in the last ***2*** rounds.
+1. No consecutive breaks, entailing no more than ***2*** home/away games in a row for every team.
+1. Every team has exactly ***1*** break.
+1. The higher the team number, the lower the round number containing the first break for the team.
