@@ -1,4 +1,4 @@
-# Round Robin Schedules
+# Ideal Round Robin
 Given ***n*** teams, every round robin schedule (***n***-teams.txt) has the following properties:
 
 ## n is even
@@ -20,3 +20,5 @@ Given ***n*** teams, every round robin schedule (***n***-teams.txt) has the foll
 1. No consecutive breaks, entailing no more than ***2*** home/away games in a row for every team.
 1. Every team has exactly ***1*** break.
 1. The higher the team number, the lower the round number containing the first break for the team.
+
+<sub>The schedules in this repository were created based on optima extracted from the literature, with the purpose to serve as basis for sports planning and scheduling projects.</sub>
