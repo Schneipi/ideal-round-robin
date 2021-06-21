@@ -21,4 +21,4 @@ Given ***n*** teams, every round robin schedule (***n***-teams.txt) has the foll
 1. Every team has exactly ***1*** break.
 1. The higher the team number, the lower the round number containing the first break for the team.
 
-<sub>The schedules in this repository were created based on optima extracted from the literature, with the purpose to serve as basis for sports planning and scheduling projects.</sub>
+<sub>The schedules in this repository were created based on optima extracted from the literature, with the purpose to serve as basis for sports scheduling projects.</sub>
