@@ -4,7 +4,7 @@ Given ***n*** teams, every round robin schedule (***n***-teams.txt) has the foll
 ## n is even
 
 1. Mirrored double round robin schedule: Same games in round ***k*** and round ***k+n-1***, except inverted home advantage.
-1. Total number of breaks (consecutive home/away games) is a minimumand equals ***3n-6*** [de Werra 1981].
+1. Total number of breaks (consecutive home/away games) is a minimum and equals ***3n-6*** [de Werra 1981].
 1. First ***n-1*** rounds on their own compose a single round robin schedule with a minimum of ***n-2*** breaks [de Werra 1981].
 1. No breaks in rounds ***2*** and ***n-1***, entailing that every team has precisely ***1*** home game in the first ***2**** rounds and precisely ***1*** home game in the last ***2*** rounds.
 1. No consecutive breaks, entailing no more than ***2*** home/away games in a row for every team.
